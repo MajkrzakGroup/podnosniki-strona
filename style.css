@@ -442,3 +442,12 @@ input[type=range]{width:100%;margin:18px 0 4px;accent-color:var(--green)}
   body>section{background-color:#fff}
   .container{max-width:1080px;padding:0 44px}
 }
+
+/* Realizacje: opinie */
+.reviews{margin-top:34px;text-align:center;background:#fff;border-radius:8px;padding:26px 20px;border-bottom:4px solid var(--yellow)}
+.reviews p{margin-bottom:16px}
+/* Strona tekstowa (polityka) */
+.legal{max-width:820px}
+.legal h2{font-size:22px;margin:28px 0 10px}
+.legal p,.legal li{margin-bottom:8px}
+.legal ul{padding-left:20px}
