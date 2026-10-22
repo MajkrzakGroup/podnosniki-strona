@@ -7,15 +7,16 @@
 <meta name="description" content="Polityka prywatności i plików cookies strony majkrzakgrouppodnosniki.pl – MAJKRZAK Group Edyta Majkrzak, Bielawa.">
 <link rel="icon" href="logo.webp">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=3">
 
+<script>try{if(!sessionStorage.getItem('intro')&&!matchMedia('(prefers-reduced-motion: reduce)').matches){var h=document.documentElement;h.classList.add('intro');sessionStorage.setItem('intro','1');setTimeout(function(){h.classList.remove('intro','intro-out')},4500)}}catch(e){}</script>
 </head>
 <body>
 
 <!-- ================= NAGŁÓWEK ================= -->
 <header id="top">
   <div class="container head">
-    <a href="index.html" class="logo"><img src="logo.webp" alt="Majkrzak Group – wynajem podnośników koszowych, logo"></a>
+    <a href="index.html" class="logo"><img src="logo-kolo.webp" alt="Majkrzak Group – wynajem podnośników koszowych, logo"></a>
     <div class="head-right">
       <div class="head-contact">
         <span>Rezerwacja:</span>
@@ -165,5 +166,6 @@
     document.addEventListener('keydown',e=>{if(!lb.classList.contains('open'))return;if(e.key==='Escape')lb.classList.remove('open');if(e.key==='ArrowLeft')show(cur-1);if(e.key==='ArrowRight')show(cur+1);});
   }
 </script>
+<script src="efekty.js?v=3"></script>
 </body>
 </html>
