@@ -11,7 +11,7 @@
 <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=5">
+<link rel="stylesheet" href="style.css?v=6">
 
 <script>try{if(!sessionStorage.getItem('intro')&&!matchMedia('(prefers-reduced-motion: reduce)').matches){var h=document.documentElement;h.classList.add('intro');sessionStorage.setItem('intro','1');setTimeout(function(){h.classList.remove('intro','intro-out')},4500)}}catch(e){}</script>
 <style>.gal{columns:auto;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}.gal a{display:block}.gal a figure{margin:0;height:340px}.gal a img{height:100%;object-fit:cover}</style>
@@ -32,13 +32,28 @@
         <ul>
           <li><a href="index.html">Strona główna</a></li>
           <li><a href="podnosnik-27m.html">Podnośnik 27 m</a></li>
-          <li><a href="podnosnik-dzierzoniow.html">Dzierżoniów</a></li>
-          <li><a href="podnosnik-swidnica.html">Świdnica</a></li>
-          <li><a href="podnosnik-zabkowice.html">Ząbkowice</a></li>
-          <li><a href="czyszczenie-rynien.html">Rynny</a></li>
+          <li class="dd"><span class="dd-btn" tabindex="0">Miejscowości <i class="dd-arrow"></i></span>
+            <ul class="dd-menu">
+              <li><a href="podnosnik-dzierzoniow.html">Dzierżoniów</a></li>
+              <li><a href="podnosnik-swidnica.html">Świdnica</a></li>
+              <li><a href="podnosnik-zabkowice.html">Ząbkowice Śląskie</a></li>
+              <li><a href="podnosnik-walbrzych.html">Wałbrzych</a></li>
+              <li><a href="podnosnik-nowa-ruda.html">Nowa Ruda</a></li>
+            </ul>
+          </li>
+          <li class="dd has-active"><span class="dd-btn" tabindex="0">Usługi <i class="dd-arrow"></i></span>
+            <ul class="dd-menu">
+              <li><a href="czyszczenie-rynien.html">Czyszczenie rynien</a></li>
+              <li><a href="usuwanie-sopli.html">Usuwanie sopli i śniegu</a></li>
+              <li><a href="podnosnik-klimatyzacja.html">Montaż klimatyzacji</a></li>
+              <li><a href="montaz-reklam-oswietlenia.html" class="active">Reklamy i oświetlenie</a></li>
+              <li><a href="prace-elektryczne-na-wysokosci.html">Prace elektryczne</a></li>
+              <li><a href="przycinanie-drzew-podnosnik.html">Przycinanie drzew</a></li>
+              <li><a href="wycinka-drzew-bielawa.html">Wycinka drzew</a></li>
+            </ul>
+          </li>
           <li><a href="podnosnik-27m.html#cennik">Cennik</a></li>
           <li><a href="index.html#realizacje">Realizacje</a></li>
-          <li><a href="wycinka-drzew-bielawa.html">Wycinka</a></li>
           <li><a href="#kontakt">Kontakt</a></li>
         </ul>
       </nav>
